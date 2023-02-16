@@ -75,6 +75,7 @@ class Style(object):
 
     transition = '150ms'
     colors = (
+        '#ee7b0b', # Argam Color
         '#F44336',  # 0
         '#3F51B5',  # 4
         '#009688',  # 8
