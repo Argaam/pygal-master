@@ -50,6 +50,7 @@ class Bar(Graph):
         width -= 2 * serie_margin
         height = self.view.y(zero) - y
         r = serie.rounded_bars * 1 if serie.rounded_bars else 0
+        r = 5
         alter(
             self.svg.transposable_node(
                 parent,
