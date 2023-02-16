@@ -496,7 +496,7 @@ class Config(CommonConfig):
     )
 
     # Misc #
-    js = Key(('//kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js', ),
+    js = Key(('//localhost:19945/js/pygal-tooltips.min.js', ),
              list, "Misc", "List of js file",
              "It can be any uri from file:///tmp/ext.js to //domain/ext.js",
              str)
@@ -508,7 +508,7 @@ class Config(CommonConfig):
     )
 
     force_uri_protocol = Key(
-        'https', str, "Misc", "Default uri protocol",
+        'http', str, "Misc", "Default uri protocol",
         "Default protocol for external files. "
         "Can be set to None to use a // uri"
     )
