@@ -496,7 +496,7 @@ class Config(CommonConfig):
     )
 
     # Misc #
-    js = Key(('//charts-static-contents.s3.eu-west-1.amazonaws.com/pygal-tooltips.min.js', ),
+    js = Key(('//chartscripts.edanat.com/pygal-tooltips.min.js', ),
              list, "Misc", "List of js file",
              "It can be any uri from file:///tmp/ext.js to //domain/ext.js",
              str)
